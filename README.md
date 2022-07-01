@@ -10,6 +10,6 @@ PROMTPs added into hg38 ncbiRefSeq gtf file to provide features, and features ex
 Differential expression analysis was performed using DESeq2 R package (v1.34.0). 
 PROMPTs further selected with FDR > 0.05, FC > 2 (INTS11KO over WT) and start within 500bp upstream transcript start site.
 Work with following code
-'''
+```
 bash antisense_main.sh expressed_list.bed treated_mark species
-'''
+```
