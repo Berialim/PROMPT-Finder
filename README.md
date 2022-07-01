@@ -9,3 +9,7 @@ The merged areas were identified as PROMPTs.
 PROMTPs added into hg38 ncbiRefSeq gtf file to provide features, and features expression quantification was performed with featureCounts tool of Subread (v2.0.1).
 Differential expression analysis was performed using DESeq2 R package (v1.34.0). 
 PROMPTs further selected with FDR > 0.05, FC > 2 (INTS11KO over WT) and start within 500bp upstream transcript start site.
+Work with following code
+'''
+bash antisense_main.sh expressed_list.bed treated_mark species
+'''
