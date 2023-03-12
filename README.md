@@ -1,4 +1,4 @@
-# PROMPTs-Finder
+# PROMPT-Finder
 The pipeline of finding PROMoter uPstream Transcripts(PROMPTs)
 Identification of PROMPTs
 First, we set background area as intergenic regions which are 10kb away from annotated genes. 
